@@ -1,0 +1,12 @@
+//basic code Mosfet Maxim Sleypen
+void setup() {
+  pinMode(1, OUTPUT); // kies digitalpoort 1
+}
+void loop() {
+
+  digitalWrite(1, HIGH); //mosfet uit
+  delay(1000);
+
+  digitalWrite(1, LOW); //mosfet aan
+  delay(1000);
+}
